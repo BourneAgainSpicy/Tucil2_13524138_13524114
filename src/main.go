@@ -369,7 +369,7 @@ func main() {
 	inputPath := os.Args[1]
 	maxDepth, err := strconv.Atoi(os.Args[2])
 	if err != nil || maxDepth < 1 {
-		fmt.Fprintln(os.Stderr, "Error: max_depth must be a positive integer")
+		fmt.Fprintln(os.Stderr, "Integer maxDepth harus positif")
 		os.Exit(1)
 	}
 
