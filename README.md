@@ -6,10 +6,15 @@ Release GO terbaru: https://go.dev/dl/
 c. Cara mengkompilasi dari source code
 Jalankan perintah :
 go mod init voxelizer
+go build
 
 d. Cara menjalankan program dari src code:
 Jalankan perintah :
 go run ../main.go ../input.obj <maxDepthOctree>
+
+Cara menjalankan program dari executable:
+Jalankan perintah:
+./voxelizer ../input.obj <maxDepthOctree>
 
 e. Author
 
